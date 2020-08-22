@@ -1,21 +1,21 @@
 import { AssistantPackage, RuleDefinition } from '@sketch-hq/sketch-assistant-types'
 
-const helloWorld: RuleDefinition = {
+const helloNC: RuleDefinition = {
   rule: async (context) => {
-    context.utils.report('Hello world')
+    context.utils.report('naming conventions here...')
   },
-  name: 'sketch-assistant-template/hello-world',
-  title: 'Hello World',
+  name: 'naming-conventions-assistant-plus/hello-naming-conventions',
+  title: 'Naming Conventions Plus',
   description: 'Reports a hello world message',
 }
 
 const assistant: AssistantPackage = async () => {
   return {
-    name: 'sketch-assistant-template',
-    rules: [helloWorld],
+    name: 'naming-conventions-assistant-plus',
+    rules: [helloNC],
     config: {
       rules: {
-        'sketch-assistant-template/hello-world': { active: true },
+        'naming-conventions-assistant-plus/hello-naming-conventions': { active: true },
       },
     },
   }
