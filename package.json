@@ -1,12 +1,12 @@
 {
-  "name": "naming-conventions-assistant-plus",
+  "name": "@michaelcalbers/naming-conventions-assistant-plus",
   "homepage": "https://github.com/michaelcalbers/naming-conventions-assistant-plus",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",
   "sketch-assistant": {
-    "title": "Naming convention assistant Plus",
+    "title": "Naming Convention Plus",
     "description": "Guidance on naming conventions for objects within Sketch",
     "icon": ""
   },
@@ -44,6 +44,7 @@
     "webpack-cli": "3.3.12"
   },
   "dependencies": {
-    "@sketch-hq/sketch-assistant-types": "6.0.0"
+    "@sketch-hq/sketch-assistant-types": "6.0.0",
+    "@sketch-hq/sketch-core-assistant": "^6.1.0"
   }
 }
