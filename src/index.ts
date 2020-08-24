@@ -9,11 +9,17 @@ const assistant: AssistantPackage = [
       rules: [],
       config: {
         rules: {
-          '@sketch-hq/sketch-core-assistant/name-pattern-artboards': {
+          '@sketch-hq/sketch-core-assistant/name-pattern-pages': {
             active: true,
             allowed: [],
-            forbidden: ['^Artboard$', 'Artboard Copy', 'Artboard [0-9]'],
-            ruleTitle: 'Give Artboards informative descriptions (vs. their default names)',
+            forbidden: ['^Page$', 'Page Copy', 'Page [0-9]'],
+            ruleTitle: 'Give Pages informative descriptions (vs. their default names)',
+          },
+          '@sketch-hq/sketch-core-assistant/name-pattern-artboards': {
+            active: true,
+            allowed: ['^(\\d+\\.?)+.*'], // [],
+            forbidden: [], // ['^Artboard$', 'Artboard Copy', 'Artboard [0-9]'],
+            ruleTitle: 'Artboard names should start with numbers',
           },
           '@sketch-hq/sketch-core-assistant/name-pattern-groups': {
             active: true,

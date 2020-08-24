@@ -6,7 +6,7 @@
   "sketch": "dist/sketch.js",
   "license": "MIT",
   "sketch-assistant": {
-    "title": "Naming Convention Plus",
+    "title": "Naming Conventions Plus",
     "description": "Guidance on naming conventions for objects within Sketch",
     "icon": ""
   },
