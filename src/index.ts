@@ -5,7 +5,7 @@ const assistant: AssistantPackage = [
   CoreAssistant,
   async () => {
     return {
-      name: '@michaelcalbers/naming-conventions-assistant-plus',
+      name: 'naming-conventions-assistant-plus',
       rules: [],
       config: {
         rules: {
