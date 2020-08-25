@@ -1,7 +1,7 @@
 {
   "name": "naming-conventions-assistant-plus",
   "homepage": "https://github.com/michaelcalbers/naming-conventions-assistant-plus",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",
