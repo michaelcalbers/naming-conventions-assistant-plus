@@ -1,14 +1,14 @@
 {
   "name": "naming-conventions-assistant-plus",
   "homepage": "https://github.com/michaelcalbers/naming-conventions-assistant-plus",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",
   "sketch-assistant": {
     "title": "Naming Conventions Plus",
     "description": "Guidance on naming conventions for objects within Sketch",
-    "icon": "https://raw.githubusercontent.com/michaelcalbers/naming-conventions-assistant-plus/main/.github/images/NamingConvensionPlus.png"
+    "icon": "https://raw.githubusercontent.com/michaelcalbers/naming-conventions-assistant-plus/main/.github/images/NamingConvensionsPlus.png"
   },
   "author": {
     "name": "Michael C. Albers"
@@ -17,7 +17,6 @@
     "sketch",
     "sketch files",
     "sketch assistant",
-    "public",
     "assistant",
     "design ops"
   ],
