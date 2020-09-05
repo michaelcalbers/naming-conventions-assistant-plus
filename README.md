@@ -14,7 +14,7 @@ The "naming-conventions-assistant-plus" repository is inspired by and extends
 - [Artboard names](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/name-pattern-artboards)
   start with numbers, e.g. `1.0.0 Splash Screen`
 - [Artboards](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/name-pattern-artboards)
-  have informative descriptions (not default names like Artboard)
+  have informative descriptions (not default names like `Artboard`)
 - [Groups](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/name-pattern-groups)
   have informative descriptions (not default names like `Group`)
 - [Pages](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/name-pattern-pages)
