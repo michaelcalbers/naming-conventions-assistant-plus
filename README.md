@@ -2,7 +2,7 @@
 
 ##### by Michael C. Albers
 
-![Naming Convensions Plus icon](../../.github/images/NamingConvensionsPlus.png)
+![Naming Convensions Plus icon](./.github/images/NamingConvensionsPlus.png)
 
 ## Leverage and extend
 
