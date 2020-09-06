@@ -4,6 +4,10 @@
 
 ![Naming Convensions Plus icon](./.github/images/NamingConvensionsPlus.png)
 
+## Add to your Sketch document
+
+[:heavy_plus_sign: :heavy_plus_sign: Add to the Sketch document you have open currently :heavy_plus_sign: :heavy_plus_sign:](sketch://add-assistant?url=https://registry.npmjs.org/naming-conventions-assistant-plus/-/naming-conventions-assistant-plus-1.2.4.tgz)
+
 ## Leverage and extend
 
 The "naming-conventions-assistant-plus" repository is inspired by and extends

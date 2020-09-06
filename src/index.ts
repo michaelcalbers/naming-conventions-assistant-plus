@@ -13,19 +13,20 @@ const assistant: AssistantPackage = [
             active: true,
             allowed: [],
             forbidden: ['^Page$', 'Page Copy', 'Page [0-9]'],
-            ruleTitle: 'Give Pages informative descriptions (vs. their default names)',
+            ruleTitle: 'Pages have informative descriptions (not default names like "Page 1")',
           },
           '@sketch-hq/sketch-core-assistant/name-pattern-artboards': {
             active: true,
             allowed: ['^(\\d+\\.?)+.*'], // [],
             forbidden: [], // ['^Artboard$', 'Artboard Copy', 'Artboard [0-9]'],
-            ruleTitle: 'Artboard names should start with numbers',
+            ruleTitle:
+              'Artboard names start with numbers, e.g. "1.0.0 Splash Screen" and have informative descriptions (not default names like "Artboard")',
           },
           '@sketch-hq/sketch-core-assistant/name-pattern-groups': {
             active: true,
             allowed: [],
             forbidden: ['^Group$', 'Group Copy', 'Group [0-9]'],
-            ruleTitle: 'Give Groups informative descriptions (vs. their default names)',
+            ruleTitle: 'Groups have informative descriptions (not default names like "Group")',
           },
           '@sketch-hq/sketch-core-assistant/name-pattern-shapes': {
             active: true,
@@ -53,13 +54,14 @@ const assistant: AssistantPackage = [
               'Mask Copy',
               'Mask [0-9]',
             ],
-            ruleTitle: 'Give Shapes informative descriptions (vs. their default names)',
+            ruleTitle:
+              'Layers have informative descriptions (not default names like "Rectangle", "Oval", or "Mask")',
           },
           '@sketch-hq/sketch-core-assistant/name-pattern-symbols': {
             active: true,
             allowed: ['(^.+)(([/].*)+)\\w$'],
             forbidden: [],
-            ruleTitle: 'Symbol names should use forward slash grouping',
+            ruleTitle: 'Symbols use forward-slash grouping, e.g. "Icon / Paste"',
           },
         },
       },
